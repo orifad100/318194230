@@ -1,6 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    background: url(How-to-trade-stocks.webp) no-repeat center center fixed;
+    background-size: cover;
+    
   }
   
   header {
@@ -16,6 +19,8 @@ body {
     justify-content: center;
     z-index: 999; /* To make sure the toolbar is on top of other elements */
   }
+
+  
   
   
   nav ul {
@@ -44,6 +49,11 @@ body {
     font-size: 14px;
     padding: 0 16px;
   }
+
+  nav ul li a:hover {
+    color: rgb(36, 206, 45); /* Change the color to your desired color */
+  }
+  
   
   main {
     display: flex;
@@ -51,6 +61,7 @@ body {
     min-height: calc(100vh - 50px);
     align-items: flex-end;
     justify-content: center;
+    
   }
   
   .content {
@@ -59,6 +70,8 @@ body {
     padding: 50px;
     box-sizing: border-box;
     text-align: center;
+    background: url(How-to-trade-stocks.webp) no-repeat center center fixed;
+    background-size: cover;
   }
   
   .content h2 {
@@ -67,10 +80,11 @@ body {
   
   #My Photos {
     text-align: center;
+    
   }
 
   img {
-    width: 500px;
+    width: 200;
     height: 200px;
   }
   
@@ -80,6 +94,7 @@ body {
     overflow: scroll;
     white-space: nowrap;
     margin: 0 auto;
+    
   }
   
   .photo {
@@ -88,6 +103,7 @@ body {
     vertical-align: top;
     box-sizing: border-box;
     padding: 10px;
+    
   }
 
   #My Playlist {
@@ -109,6 +125,79 @@ body {
     box-sizing: border-box;
     padding: 10px;
   }
+
+  .QR{
+    width: 600;
+    height: 600px;
+  }
+
+  #contact-me label {
+    font-size: 28px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: red;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+  }
+
+
   
   
-  
+/* Change the background color */
+#email 
+{
+  background-color: #f1f1f1;
+  border: 2px solid #10c525;
+  border-radius: 5px;
+  color: #d35656;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+  background-image: url('email-icon.png');
+  background-repeat: no-repeat;
+  background-position: 1000px center;
+  padding-left: 40px;
+  font-size: 18px;
+} 
+
+#message 
+{
+  background-color: #f1f1f1;
+  border: 2px solid #10c525;
+  border-radius: 5px;
+  color: #d35656;
+  box-shadow: 0 0 5px rgba(238, 138, 8, 0.1);
+
+  background-image: url('email-icon.png');
+  background-repeat: no-repeat;
+  background-position: 1000px center;
+  padding-left: 40px;
+  font-size: 18px;
+} 
+
+
+#name 
+{
+  background-color: #f1f1f1;
+  border: 2px solid #10c525;
+  border-radius: 5px;
+  color: #d35656;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+  background-image: url('email-icon.png');
+  background-repeat: no-repeat;
+  background-position: 1000px center;
+  padding-left: 40px;
+  font-size: 18px;
+} 
+
+#error-message {
+  color: red;
+  font-weight: bold;
+  font-size: 28px;
+}
+
