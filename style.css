@@ -20,6 +20,16 @@ body {
     z-index: 999; /* To make sure the toolbar is on top of other elements */
   }
 
+  .toolbar {
+    height: 40px; /* set the height of the toolbar */
+    background-color: #333333; /* set the background color of the toolbar */
+  }
+  
+  .toolbar img {
+    display: block; /* set the display property of the image to block */
+    max-height: 100%; /* set the max-height property of the image to 100% */
+    max-width: 100%; /* set the max-width property of the image to 100% */
+  }
   
   
   
@@ -112,14 +122,14 @@ body {
   
   
   .playlist-container {
-    width: 600px;
+    width:1300px;
     overflow: scroll;
     white-space: nowrap;
     margin: 0 auto;
   }
   
   .Playlist {
-    width: calc(100% / 1);
+    width: calc(100% / 2);
     display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
@@ -129,6 +139,8 @@ body {
   .QR{
     width: 600;
     height: 600px;
+    text-align: center;
+
   }
 
   #contact-me label {
@@ -201,3 +213,28 @@ body {
   font-size: 28px;
 }
 
+/* Set font and background color for the table header */
+table th {
+  font-size: 18px;
+  background-color: #6288b0;
+  color: white;
+  padding: 10px;
+}
+
+/* Set font size and padding for the table cells */
+table td {
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* Add zebra striping to the table rows */
+table tbody tr:nth-child(even) {
+  background-color: #bf4949;
+}
+table tbody tr:nth-child(odd) {
+  background-color: #3cac5a;
+}
+
+table {
+  margin: 0 auto;
+}
