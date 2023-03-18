@@ -17,10 +17,10 @@ The website is a personal project for warren buffett, showcasing his personal in
 The "About Me" section provides a brief introduction to warren buffett. The section details his background, education, business career, personal hobbies, interests, and philanthropy.
 
 # My Photos
-The "My Photos" section includes a gallery of personal photos of warren buffett.
+The "My Photos" section includes a gallery of personal photos of warren buffett. The photos are displayed in a photo container with a scroll bar, and when hovering over a photo, it will jump out of the page.
 
 # My Playlist
-The "My Playlist" section includes a selection of videos curated by warren buffett.
+The "My Playlist" section includes a selection of videos curated by warren buffett. The Playlist are displayed in a Playlist container with a scroll bar, and when hovering over a song, it will jump out of the page.
 
 # Like
 The "Like" section is a call-to-action for visitors to show their support for warren buffett.
